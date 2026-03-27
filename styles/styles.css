@@ -190,6 +190,10 @@ img {
   color: #000000;
 }
 
+.advantages-item-accent .advantages-subtitle {
+  color: #FFFFFF;
+}
+
 .advantages-description {
   margin: 0;
 }
