@@ -795,6 +795,11 @@ img {
   transform: translate(-50%, -50%);
 }
 
+.filter-input[type="checkbox"]:focus-visible + .filter-mark,
+.filter-input[type="radio"]:focus-visible + .filter-mark {
+  outline: 3px solid #83B3D3;
+}
+
 .range-inputs {
   display: flex;
   justify-content: space-between;
