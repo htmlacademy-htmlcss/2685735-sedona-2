@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Дмитрий](https://up.htmlacademy.ru/htmlcss-individual/2/user/2685735).
-* Наставник: `Неизвестно`.
+* Студент: [Дмитрий Буян](https://up.htmlacademy.ru/htmlcss-individual/2/user/2685735).
+* Наставник: [Ярослав Шевцов](https://htmlacademy.ru/profile/redx).
 
 ---
 
