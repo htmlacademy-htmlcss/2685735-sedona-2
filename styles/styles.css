@@ -996,11 +996,19 @@ img {
   transition: opacity 0.25s ease-in-out;
 }
 
-.filter-label:hover {
+.filter-label:has(.filter-input:disabled) {
+  opacity: 0.2;
+}
+
+.filter-label:has(.filter-input:disabled):hover {
+  cursor: not-allowed;
+}
+
+.filter-label:not(:has(.filter-input:disabled)):hover {
   opacity: 0.6;
 }
 
-.filter-label:active {
+.filter-label:not(:has(.filter-input:disabled)):active {
   opacity: 0.3;
 }
 
@@ -1050,6 +1058,10 @@ img {
 .filter-input[type="checkbox"]:focus-visible + .filter-mark,
 .filter-input[type="radio"]:focus-visible + .filter-mark {
   outline: 3px solid #83B3D3;
+}
+
+.filter-input[type="checkbox"]:disabled:checked + .filter-mark::before {
+  display: none;
 }
 
 .range-inputs {
