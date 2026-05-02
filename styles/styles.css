@@ -67,15 +67,12 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  -webkit-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
-  -o-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
-  transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out;
 }
 
 .button:hover,
@@ -246,18 +243,15 @@ img {
 
 .user-menu-link {
   padding: 25px 15px;
-  -webkit-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out,
-    opacity 0.25s ease-in-out;
-  -o-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out,
-    opacity 0.25s ease-in-out;
-  transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out,
-    opacity 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out,
+  opacity 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out,
+  opacity 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out,
+  opacity 0.25s ease-in-out;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
@@ -335,14 +329,12 @@ img {
   padding-bottom: 78px;
   text-align: center;
   background-color: #82a0d3;
-  background-image:
-    url("../images/hero-devider.svg"),
-    url("../images/hero-background.jpg");
+  background-image: url("../images/hero-devider.svg"),
+  url("../images/hero-background.jpg");
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
-  background-position:
-    center bottom,
-    center top;
+  background-position: center bottom,
+  center top;
 }
 
 .advantages {
@@ -793,7 +785,7 @@ img {
 }
 
 .social-link:hover .social-icon,
-.social-link:focus .social-icon{
+.social-link:focus .social-icon {
   color: #68a2ca;
 }
 
@@ -1095,12 +1087,9 @@ img {
   background-color: #f2f2f2;
   border: none;
   border-radius: 4px;
-  -webkit-transition:
-    background-color 0.25s ease-in-out;
-  -o-transition:
-    background-color 0.25s ease-in-out;
-  transition:
-    background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
 }
 
 .range-input:hover {
@@ -1266,15 +1255,12 @@ img {
 .filter-reset {
   margin-top: 32px;
   background-color: transparent;
-  -webkit-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
-  -o-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
-  transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out;
 }
 
 .filter-reset:hover,
@@ -1328,6 +1314,8 @@ img {
 }
 
 .catalog-sort {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 292px;
@@ -1371,6 +1359,9 @@ img {
 }
 
 .catalog-view {
+  width: 160px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1378,7 +1369,7 @@ img {
   -moz-column-gap: 8px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  column-gap: 8px;
+  gap: 8px;
 }
 
 .view-button {
@@ -1504,6 +1495,7 @@ img {
 .hotel-favorite:focus {
   background-color: #68a2ca;
 }
+
 .hotel-favorite:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #82b3d3;
@@ -1533,58 +1525,48 @@ img {
 }
 
 .hotel-stars-1 {
-  background-image:
-    url("../images/icons/star.svg");
-  background-position:
-    0 0;
+  background-image: url("../images/icons/star.svg");
+  background-position: 0 0;
 }
 
 .hotel-stars-2 {
-  background-image:
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg");
-  background-position:
-    0 0,
-    24px 0;
+  background-image: url("../images/icons/star.svg"),
+  url("../images/icons/star.svg");
+  background-position: 0 0,
+  24px 0;
 }
 
 .hotel-stars-3 {
-  background-image:
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg");
-  background-position:
-    0 0,
-    24px 0,
-    48px 0;
+  background-image: url("../images/icons/star.svg"),
+  url("../images/icons/star.svg"),
+  url("../images/icons/star.svg");
+  background-position: 0 0,
+  24px 0,
+  48px 0;
 }
 
 .hotel-stars-4 {
-  background-image:
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg");
-  background-position:
-    0 0,
-    24px 0,
-    48px 0,
-    72px 0;
+  background-image: url("../images/icons/star.svg"),
+  url("../images/icons/star.svg"),
+  url("../images/icons/star.svg"),
+  url("../images/icons/star.svg");
+  background-position: 0 0,
+  24px 0,
+  48px 0,
+  72px 0;
 }
 
 .hotel-stars-5 {
-  background-image:
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg"),
-    url("../images/icons/star.svg");
-  background-position:
-    0 0,
-    24px 0,
-    48px 0,
-    72px 0,
-    96px 0;
+  background-image: url("../images/icons/star.svg"),
+  url("../images/icons/star.svg"),
+  url("../images/icons/star.svg"),
+  url("../images/icons/star.svg"),
+  url("../images/icons/star.svg");
+  background-position: 0 0,
+  24px 0,
+  48px 0,
+  72px 0,
+  96px 0;
 }
 
 .hotel-rating {
@@ -1650,18 +1632,15 @@ img {
   border: 1px solid #82b3d3;
   border-radius: 4px;
   background-color: #82b3d3;
-  -webkit-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out,
-    border-color 0.25s ease-in-out;
-  -o-transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out,
-    border-color 0.25s ease-in-out;
-  transition:
-    background-color 0.25s ease-in-out,
-    color 0.25s ease-in-out,
-    border-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out,
+  border-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out,
+  border-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out,
+  color 0.25s ease-in-out,
+  border-color 0.25s ease-in-out;
 }
 
 .pagination-link:hover,
